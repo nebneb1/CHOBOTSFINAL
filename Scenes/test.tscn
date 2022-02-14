@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Spatial.gd" type="Script" id=1]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.84327, 0, 0.537491, 0, 1, 0, -0.537491, 0, -0.84327, 2.72229, 1.18459, -4.44859 )
+fov = 106.274
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Camera"]
+margin_left = 73.7822
+margin_top = 44.4126
+margin_right = 230.782
+margin_bottom = 84.4126
+text = "Debug: ~"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/TANKSHELL.gd" type="Script" id=1]
+[ext_resource path="res://Art/TANKSHELL (1).dae" type="PackedScene" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="TANKSHELL" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.05, 0, 0, 0, -2.18557e-09, -0.05, 0, 0.05, -2.18557e-09, 0, 0.5, 0 )
+script = ExtResource( 1 )
